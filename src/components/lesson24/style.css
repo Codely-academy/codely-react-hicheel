@@ -1,0 +1,25 @@
+.huree {
+  border: 1px solid black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.73);
+  -webkit-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.73);
+}
+.huree img {
+  width: 300px;
+}
+.mur {
+  display: flex;
+  justify-content: space-around;
+}
+.like {
+  color: lightblue;
+  font-size: 24px;
+}
+.dislike {
+  color: orange;
+  font-size: 24px;
+}

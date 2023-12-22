@@ -1,0 +1,28 @@
+.container {
+  background-color: lightcyan;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container h1 {
+  margin: 0;
+}
+
+.container button {
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+  padding-inline: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  transition: 0.5s;
+  margin-left: 5px;
+}
+.container button:hover {
+  background-color: lightblue;
+}
+.container input {
+  padding: 6px;
+  border-radius: 8px;
+}

@@ -1,0 +1,15 @@
+.increase {
+  background-color: green;
+  color: white;
+  padding: 5px;
+}
+.decrease {
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+.reset {
+  background-color: gray;
+  color: white;
+  padding: 5px;
+}

@@ -1,0 +1,45 @@
+.container {
+  background-color: #edede9;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container > div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container h1 {
+  font-size: 56px;
+}
+.container button {
+  font-size: 56px;
+  background-color: #ffafcc;
+  color: white;
+}
+.main {
+  width: 40vw;
+  height: 40vw;
+  background-color: #ffc8dd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box {
+  background-color: #ffafcc;
+  width: 9vw;
+  height: 9vw;
+  font-size: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box:hover {
+  cursor: pointer;
+  background-color: #ff006e;
+}
